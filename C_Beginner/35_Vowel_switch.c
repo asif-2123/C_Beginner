@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    char ch;
+    printf("Enter the character: ");
+    scanf("%c",&ch);
+    switch(ch)
+    {
+        case 'a':case 'e':case 'i':case 'o':case 'u':
+        case 'A':case 'E':case 'I':case 'O':case 'U':
+            printf("The answer is: Vowel");break;
+        default:
+            printf("The answer is: Not a Vowel");
+    }
+}
